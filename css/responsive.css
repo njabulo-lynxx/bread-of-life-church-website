@@ -81,12 +81,12 @@
 
   .hero-content h1 {
     font-size: 39px;
-    margin: 0 auto 18px;
+    margin: 0 auto 10px;
   }
 
   .hero-title {
     font: 24px;
-    margin: 0 auto 18px;
+    margin: 0 auto 10px;
   }
 
   .hero-subtitle {
@@ -151,15 +151,15 @@
 
 @media (max-width: 480px) {
   .hero-content h1 {
-    font-size: 31px;
+    font-size: 33px;
   }
 
   .hero-title {
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .hero-subtitle {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .hero-description {

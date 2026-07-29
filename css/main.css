@@ -28,11 +28,22 @@
 }
 
 .hero-content h1 {
+  color: var(--gold);
   font-family: 'Playfair Display', serif;
   font-size: 52px;
   line-height: 1;
   text-transform: uppercase;
   max-width: 600px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 600px;
+  font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 12px;
 }

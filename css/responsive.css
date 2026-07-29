@@ -154,6 +154,11 @@
   }
 
   .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
     flex-direction: column;
     gap: 12px;
   }

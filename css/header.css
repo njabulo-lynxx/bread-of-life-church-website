@@ -68,7 +68,7 @@ header {
 }
 
 .visit-btn:hover {
-  background: var(--light-gold);
+  background: var(--dark-gold);
 }
 
 /* MOBILE MENU */

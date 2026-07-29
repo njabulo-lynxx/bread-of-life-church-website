@@ -38,10 +38,14 @@ img {
 
 :root {
   --navy: rgb(16, 39, 70);
+  --light-navy: rgb(17, 47, 85);
   --dark-navy: rgb(7, 26, 49);
   --gold: rgb(201, 147, 44);
   --light-gold: rgb(227, 173, 69);
+  --dark-gold: rgb(169, 119, 30);
   --white: rgb(255, 255, 255);
   --light-bg: rgb(248, 248, 247);
   --gray: rgb(93, 100, 112);
+  --light-gray: rgb(229, 229, 229);
+  --blue-gray: rgb(48, 54, 66);
 }

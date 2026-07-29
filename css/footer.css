@@ -4,12 +4,33 @@ footer {
   background: var(--dark-navy);
 }
 
+.footer-info {
+  color: var(--light-bg);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.footer-info h3 {
+  padding-bottom: 15px;
+}
+
+.footer-info p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-info a:hover{
+  color: var(--gold);
+}
+
 .footer-content {
   background: var(--light-bg);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 85px;
+  padding: 20px 85px;
 }
 
 .quote {
@@ -61,25 +82,4 @@ footer {
 
 .social a:hover {
   background: var(--gold);
-}
-
-.footer-info {
-  color: var(--light-bg);
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: 25px;
-}
-
-.footer-info h3 {
-  padding-bottom: 15px;
-}
-
-.footer-info p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.footer-info a:hover{
-  color: var(--gold);
 }

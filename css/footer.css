@@ -1,0 +1,85 @@
+/* FOOTER */
+
+footer {
+  background: var(--dark-navy);
+}
+
+.footer-content {
+  background: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 85px;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.quote-icon {
+  color: var(--gold);
+  font-size: 50px;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.quote p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.quote span {
+  display: block;
+  margin-top: 4px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.social strong {
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.social a {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+.social a:hover {
+  background: var(--gold);
+}
+
+.footer-info {
+  color: var(--light-bg);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.footer-info h3 {
+  padding-bottom: 15px;
+}
+
+.footer-info p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-info a:hover{
+  color: var(--gold);
+}

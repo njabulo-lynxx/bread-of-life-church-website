@@ -13,24 +13,31 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    <!-- Local CSS styles -->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
     <title>Bread of Life</title>
   </head>
   <body>
 
     <!-- HEADER -->
     <header>
-      <nav>
-        <a href="#">
+      <nav class="navbar">
+        <a href="#" class="logo">
           <img src="./assets/images/church_logo.png" alt="Bread of Life Church Logo">
         </a>
 
         <!-- Menu toggle -->
-        <div>
-          <i></i>
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
         </div>
 
-        <div>
-          <a href="#home">HOME</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="active">HOME</a>
           <a href="#about">ABOUT US</a>
           <a href="#ministries">MINISTRIES</a>
           <a href="#sermons">SERMONS</a>
@@ -38,7 +45,7 @@
           <a href="#give">GIVE</a>
           <a href="#contact">CONTACT</a>
 
-          <a href="#visit">VISIT US</a>
+          <a href="#visit" class="visit-btn">VISIT US</a>
         </div>
       </nav>
     </header>
@@ -74,7 +81,7 @@
 
       <!-- Operation location and open time information -->
       <section>
-        <div>
+        <div class="container">
           <div>
             <i class="far fa-clock"></i>
             <h3>SERVICE TIMES</h3>
@@ -107,7 +114,7 @@
 
       <!-- Church Features -->
       <section>
-        <div>
+        <div class="container">
           <div>
             <img src="./assets/images/default_faith.jpg">
             <div>
@@ -138,7 +145,7 @@
     <!-- FOOTER -->
     <footer>
       <section>
-        <div>
+        <div class="container">
           <div>
             <div>
               “
@@ -167,7 +174,7 @@
 
       <!-- Contact, legal and copyright -->
       <section>
-        <div>
+        <div class="container">
           <!-- Address -->
           <div>
             <h3>ADDRESS</h3>
@@ -201,7 +208,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="container">
           <div>
             <p>&copy; 2026 Bread of Life</p>
           </div>
